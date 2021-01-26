@@ -21,6 +21,7 @@ Logistic regression will transform the output by using the sigmoid function to t
 
 Part of result is show as below:
 
-![image](../master/
+![image](../master/Neural_Network_result.png)
+![image](../master/accuracy_of_different_active_function.jpg)
  
 

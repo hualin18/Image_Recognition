@@ -13,7 +13,7 @@ y = data['landmark_id'].values
 
 ## apply sift to all images
 def get_features(filename):
-    path = '/home/huachao/Documents/141_project/train/'
+    path = '/home/huachao/Desktop/leetcode/train/'
     img = cv2.imread(path + filename + '.jpg')
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     sift = cv2.xfeatures2d.SIFT_create()
